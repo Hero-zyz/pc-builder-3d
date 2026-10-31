@@ -1,0 +1,57 @@
+{
+  "source": "BuildCores OpenDB",
+  "sourceUrl": "https://github.com/buildcores/buildcores-open-db",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "generatedAt": "2026-10-31T03:51:39.567Z",
+  "categories": [
+    {
+      "key": "CPU",
+      "label": "处理器",
+      "en": "CPU",
+      "count": 790
+    },
+    {
+      "key": "Motherboard",
+      "label": "主板",
+      "en": "Motherboard",
+      "count": 3697
+    },
+    {
+      "key": "GPU",
+      "label": "显卡",
+      "en": "GPU",
+      "count": 3865
+    },
+    {
+      "key": "RAM",
+      "label": "内存",
+      "en": "Memory",
+      "count": 4876
+    },
+    {
+      "key": "Storage",
+      "label": "硬盘",
+      "en": "Storage",
+      "count": 3505
+    },
+    {
+      "key": "PSU",
+      "label": "电源",
+      "en": "PSU",
+      "count": 3303
+    },
+    {
+      "key": "PCCase",
+      "label": "机箱",
+      "en": "Case",
+      "count": 3808
+    },
+    {
+      "key": "CPUCooler",
+      "label": "散热器",
+      "en": "Cooler",
+      "count": 2424
+    }
+  ]
+}

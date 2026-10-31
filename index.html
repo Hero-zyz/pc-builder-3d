@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D 装机模拟器 · 兼容性检查</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.addEventListener('error', (event) => { document.title = 'ERR: ' + (event.message || 'unknown') })
+      window.addEventListener('unhandledrejection', (event) => { document.title = 'REJ: ' + String(event.reason && event.reason.message || event.reason) })
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
